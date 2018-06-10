@@ -21,3 +21,5 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+tasks.findByPath(":opencv:androidJavadocs").enabled = false

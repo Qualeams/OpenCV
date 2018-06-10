@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'ch.zhaw'
     PUBLISH_ARTIFACT_ID =  'opencv'
-    PUBLISH_VERSION = '3.2.0'
+    PUBLISH_VERSION = '3.4.1'
 }
 
 android {
